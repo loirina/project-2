@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(217, 224, 224);
+}
+input[type=text] {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border:3px solid rgb(10, 65, 86);
+    border-radius: 30px;
+    width: 90%;
+    height: 50px;
+    color:rgb(4, 4, 52);
+    background-color:#efdb99;
+    font-family: 'Bangers', cursive;
+  }
+  input[type=submit]
+  {
+      background-color: #efdb99;
+    border-radius: 30px;
+    border:3px solid rgb(10, 65, 86);
+    color:rgb(9, 53, 57);
+    padding: 20px 30px;
+    font-family: 'Bangers', cursive;
+  }
+  
+  .text2cols {
+
+    display: flex;
+    
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    
+    width: 100%;
+    background-color:rgb(248, 200, 96);
+    ;
+    border-radius: 70px;
+    }
+    
+
+    .text2cols-item {
+    
+        display: flex;
+        
+        flex-direction: column;
+        
+        flex-basis: 100%;
+        
+        flex: 1;
+        border:5px solid rgb(10, 65, 86);
+        border-radius: 70px;
+        height: 45%;
+        
+        background: #efdb99;
+        margin-top: 10px;
+        margin: 0 60px;
+        }
+    
+    .text2cols-item + .textcols-item {
+    
+    margin-left: 4%;
+    
+    }
+    h1{
+        font-family: 'Bangers', cursive;
+        color: rgb(11, 5, 35);
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    h2{font-family: 'Bangers', cursive;
+        color: rgb(10, 10, 1);
+        letter-spacing: 5px;}
+li{
+    font-family: 'Bangers', cursive;
+    list-style-type: none;
+    color:rgb(11, 5, 35);
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+.weather {text-align: center;
+margin-bottom: 20px;
+font-size: 25px;}
+.days{text-align: center;
+margin-bottom: 10px;
+font-size: 30px;;
+}
